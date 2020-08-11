@@ -11,6 +11,7 @@ import { LayoutIndividualConversationComponent } from './layout-individual-conve
 import { FormLoginComponent } from './form-login/form-login.component';
 import { HomeFeedComponent } from './home-feed/home-feed.component';
 import { ProductListingComponent } from './product-listing/product-listing.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ProductListingComponent } from './product-listing/product-listing.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
